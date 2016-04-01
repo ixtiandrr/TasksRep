@@ -9,7 +9,7 @@ public class ServerThread extends Thread{
         this.users = users;
         this.user = user;
     }
-
+//123
     public void run() {
         try {
             Connection connection = DriverManager.getConnection("jdbc:postgresql://194.87.214.180/jurina", "webadmin", "FSBrid52282");
